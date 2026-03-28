@@ -1,7 +1,7 @@
-get_bushee <- function(
-    url = "https://accounting-faculty.wharton.upenn.edu/bushee/wp-content/uploads/sites/4/2025/07/iiclass.txt"
-) {
+get_bushee <- function() {
 
+    url = "https://accounting-faculty.wharton.upenn.edu/bushee/wp-content/uploads/sites/4/2025/07/iiclass.txt"
+    
     # Column names from Bushee's data documentation
     col_names <- c(
         "mgrno",   # Spectrum manager number  (key: links to TR 13F)
